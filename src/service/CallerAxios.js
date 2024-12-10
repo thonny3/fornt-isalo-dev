@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 const Axios = axios.create({
-   baseURL: 'http://localhost:8000/api'
+   baseURL: 'https://isalo.shop/api'
 });
 
 Axios.interceptors.request.use((request) => {
